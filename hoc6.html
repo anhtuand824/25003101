@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        table tr:not(:first-child){
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table border="2" align="center">
+            <tr>
+                <td colspan="2" align="center" style="color: red;">Phiếu Đăng Ký</td>
+            </tr>
+            <tr>
+                <td>Họ Và Tên</td>
+                <td><input type="text" name="Username"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td>Điện Thoại</td>
+                <td><input type="tel" name="tel"></td>
+            </tr>
+            <tr>
+                <td>Giới Tính</td>
+                <td align="center"><input type="radio" id="male" name="gender">Nam
+                    <input type="radio" id="female" name="gender">Nữ</td>
+            </tr>
+            <tr>
+                <td>Nghề Ngiệp</td>
+                <td><select name="Job">
+                    <option value="choose1">Bác sĩ</option>
+                    <option value="choose2">Giáo viên</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td><select name="product">
+                    <option value="choose3">Kem đánh răng</option>
+                    <option value="choose4">Phấn</option>
+                </select></td>
+            <tr>
+                <td>Số người dự đoán</td>
+                <td><input type="text" name="stt"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button>Đồng Ý</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
